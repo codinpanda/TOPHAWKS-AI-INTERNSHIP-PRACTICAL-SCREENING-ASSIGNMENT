@@ -101,7 +101,7 @@ Additionally, **feature importance** is analyzed to help sales teams understand 
 
 ## Q2. Data Wrangling: Handling Messy Data
 
-### 🏗 Pipeline Overview
+### Pipeline Overview
 
 A modular pipeline is designed to transform unstructured inputs into structured data:
 
