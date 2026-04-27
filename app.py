@@ -59,11 +59,11 @@ st.markdown("""
         margin-bottom: 30px;
     }
     </style>
-    """, unsafe_allow_index=True)
+    """, unsafe_allow_html=True)
 
 def main():
-    st.markdown("<h1>Lead Scoring System 🎯</h1>", unsafe_allow_index=True)
-    st.markdown("<p class='subtitle'>Predict and prioritize your business leads efficiently</p>", unsafe_allow_index=True)
+    st.markdown("<h1>Lead Scoring System 🎯</h1>", unsafe_allow_html=True)
+    st.markdown("<p class='subtitle'>Predict and prioritize your business leads efficiently</p>", unsafe_allow_html=True)
 
     with st.container():
         st.subheader("Lead Information")
@@ -115,7 +115,7 @@ def main():
                 <h3>Priority: {priority}</h3>
                 <p>Industry: {clean_industry.capitalize()} | Company Size: {company_size}</p>
             </div>
-        """, unsafe_allow_index=True)
+        """, unsafe_allow_html=True)
         
         # Additional Insights
         st.info(f"Based on the input, this lead from the **{industry}** industry has a **{priority}** conversion probability.")
